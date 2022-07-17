@@ -31,7 +31,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -55,4 +55,86 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.primary-link {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.description,
+.project {
+  text-align: left;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-me {
+  margin-top: 100px;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin-top: 20px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  .hero {
+    padding: 80px 20px 50px 20px;
+  }
+  .navigation-links a,
+  .primary-link {
+    margin: 10px;
+    padding: 10px 7px;
+  }
+  .navigation-links {
+    margin-top: 20px;
+  }
+
+  .description,
+  .project {
+    text-align: center;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .primary-link {
+    margin-left: none;
+    display: block;
+    text-align: center;
+  }
+  .about {
+    font-size: 15px;
+  }
 }
