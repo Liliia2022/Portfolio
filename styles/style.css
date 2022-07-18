@@ -96,6 +96,10 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+.about-content {
+  padding: 80px 20px;
+}
 @media (max-width: 800px) {
   h1 {
     font-size: 48px;
@@ -136,5 +140,11 @@ p {
   }
   .about {
     font-size: 15px;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .projects-link {
+    margin-bottom: 20px;
   }
 }
