@@ -97,8 +97,11 @@ p {
   text-decoration: underline;
 }
 
-.about-content {
+.content {
   padding: 80px 20px;
+}
+.content h1 {
+  font-size: 65px;
 }
 @media (max-width: 800px) {
   h1 {
