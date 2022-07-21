@@ -93,34 +93,45 @@ p {
   display: block;
 }
 
-.about-me {
-  margin-top: 100px;
-}
-
-.about-paragraphs {
-  display: flex;
-  margin-top: 20px;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
 .content {
   padding: 80px 20px;
 }
 .content h1 {
   font-size: 65px;
 }
+
+.contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+.social-links a {
+  color: var(--branding-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  margin: 30px;
+}
+
+.social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
 @media (max-width: 800px) {
+  .greetings {
+    padding: 10px;
+  }
   h1 {
     font-size: 48px;
   }
@@ -145,11 +156,14 @@ p {
   }
 
   .description,
-  .project {
+  .project,
+  .project-weather {
     text-align: center;
+    margin: 0;
   }
 
-  .description {
+  .description,
+  .project-weather {
     font-size: 18px;
   }
 
