@@ -143,6 +143,7 @@ footer .email-link:hover {
   h3 {
     font-size: 20px;
   }
+
   .hero {
     padding: 80px 20px 50px 20px;
   }
@@ -180,5 +181,8 @@ footer .email-link:hover {
   }
   .projects-link {
     margin-bottom: 20px;
+  }
+  .content {
+    text-align: center;
   }
 }
